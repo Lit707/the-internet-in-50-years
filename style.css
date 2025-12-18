@@ -1,0 +1,87 @@
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #000000;
+            font-family: 'Courier New', monospace;
+            color: #00ff00;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #00ff00;
+            padding-bottom: 15px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: #00ff00;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 5px #00ff00;
+            filter: blur(0.8px);
+        }
+        
+    
+        .text {
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            filter: blur(0.4px);
+            text-shadow: 0 0 3px #00ff00;
+        }
+        
+        .essay-container {
+            background-color: #0a0a0a;
+            border: 1px solid #00aa00;
+            padding: 25px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+        }
+        
+        .essay-question {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #33ff33;
+            filter: blur(0.6px);
+            text-transform: uppercase;
+            border-bottom: 1px dashed #00aa00;
+            padding-bottom: 10px;
+        }
+        
+        .essay-content {
+            font-size: 1.1rem;
+            white-space: pre-line;
+            letter-spacing: 0.5px;
+        }
+        
+        .essay-content p {
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 15px;
+            border-top: 1px solid #00aa00;
+            color: #33ff33;
+            font-size: 0.9rem;
+            filter: blur(0.3px);
+        }
+        
+       
